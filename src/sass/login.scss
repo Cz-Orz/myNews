@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, #0F72AD, #152853);
+    .login-out {
+        width: 500px;
+        height: 250px;
+        margin: 200px auto;
+        background: #A4E7FF;
+        border-radius: 10px;
+        overflow: hidden;
+        .login-inner {
+            margin: 10px;
+            background: #A4E7FF;
+            border-radius: 10px;
+        }
+    }
+}
+
+#login-modal {
+    margin-top: 50px;
+    .reminder-fa {
+        position: relative;
+        .reminder-reg {
+            display: none;
+            color: red;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .reminder-less {
+            display: none;
+            color: red;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .reminder-success {
+            display: none;
+            color: green;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+    }
+}
